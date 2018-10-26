@@ -469,7 +469,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"add_transaction","params":["ucE8
 // Response
 {
   "id": 1,
-  "jsonrpc: "2.0",
+  "jsonrpc": "2.0",
   "result": "sent a call to a smart contract"
 }
 ```
@@ -487,7 +487,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"add_transaction","params":["ucE8
 
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"add_transaction","params":["done_order", "ucE8t6twSS76nCtkA3E5EcBFR5euM79fdC", [{
+curl -X POST --data ''{"jsonrpc":"2.0","method":"add_transaction","params":["done_order", "ucE8t6twSS76nCtkA3E5EcBFR5euM79fdC", [{
   "anamnesis": true,
   "anamnesis_long": false,
   "anamnesis_valid": true,
@@ -518,12 +518,12 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"add_transaction","params":["done
   "voice_checkup": true,
   "voice_complaints": false,
   "voice_diagnosis_mkb": false
-}]],"id":1}'
+}]],"id":1}''
 
 // Response
 {
   "id": 1,
-  "jsonrpc: "2.0",
+	"jsonrpc": "2.0",
   "result": "sent a call to a smart contract"
 }
 ```
@@ -544,7 +544,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"add_transaction","params":["chec
 // Response
 {
   "id": 1,
-  "jsonrpc: "2.0",
+	"jsonrpc": "2.0",
   "result": "sent a call to a smart contract"
 }
 ```
